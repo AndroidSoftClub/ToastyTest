@@ -7,4 +7,9 @@ class FenilToasty {
 
     fun Toastfenil(activity: Activity, txt: String) =
         Toast.makeText(activity, txt, Toast.LENGTH_LONG).show()
+
+
+    fun demo(){
+
+    }
 }
