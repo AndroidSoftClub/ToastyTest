@@ -4,8 +4,7 @@ import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
-import android.widget.Toast
-import com.example.feniltoasty.FenilToasty
+import com.example.feniltoasty.ToastyFenil
 
 class MainActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
@@ -14,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         findViewById<TextView>(R.id.tv).setOnClickListener {
-            FenilToasty.Toastfenil(this@MainActivity,"Click heree")
+            ToastyFenil.toastyFenil(this@MainActivity,"Click heree")
         }
     }
 }
