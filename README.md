@@ -9,6 +9,6 @@ Lib:
     	}
 
 	dependencies {
-	        implementation 'com.github.AndroidSoftClub:ToastyTest:Tag'
+	        implementation 'com.github.AndroidSoftClub:ToastyTest:1.0.0'
 	}
  
