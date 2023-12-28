@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         findViewById<TextView>(R.id.tv).setOnClickListener {
-            ToastyFenil.toastyFenil(this@MainActivity,"Click heree")
+            ToastyFenil.toastyFenil(this@MainActivity, "Click heree")
         }
     }
 }
